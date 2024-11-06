@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../assets/images/logos/logo1.webp';
+import logo1 from '../assets/logos/logo1.webp';
 
 
 function Logo() {
