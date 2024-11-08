@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import moncv from '../assets/moncv.pdf';
 
 function Nav() {
     const [showForm, setShowForm] = useState(false);
@@ -14,16 +15,16 @@ function Nav() {
     return (
         <div>
             <div className="navContainer" style={styles.navContainer}>
-                <p style={styles.pNav}>CV</p>
+                <a href={moncv} target="_blank" rel="noopener noreferrer" style={styles.pNav}>CV</a>
                 <p style={styles.pNav} onClick={handleContactClick}>CONTACT</p>
-                <p style={styles.pNav}>MES REALISATIONS</p>
+                <a href="#projects" style={styles.pNav}>MES REALISATIONS</a> {/* Lien vers l'ID */}
             </div>
             {showForm && (
                 <div style={styles.modalOverlay}>
                     <div style={styles.modal}>
                         <button style={styles.closeButton} onClick={handleCloseClick}>X</button>
                         <form style={styles.form}>
-                            <div className="formInput" style={styles.formInput} >
+                            <div className="formInput" style={styles.formInput}>
                                 <label className="blockLabel" style={styles.blockLabel}>
                                     Nom:
                                     <input type="text" name="name" />
@@ -55,13 +56,16 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         gap: '20px',
-        background: 'lightgrey',
         paddingLeft:'50px',
-        paddingRight:'50px'
+        paddingRight:'50px',
+        alignItems:'center'
     },
     pNav: {
         fontSize: '14px',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        textDecoration: 'none',
+        color: '#3498db',
+        fontWeight:'700'
     },
     modalOverlay: {
         position: 'fixed',
@@ -103,6 +107,9 @@ const styles = {
     blockLabel:{
         display:'flex',
         flexDirection:'column'
+    },
+    a:{
+
     }
 };
 

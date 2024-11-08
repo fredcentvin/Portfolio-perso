@@ -7,6 +7,7 @@ function Header() {
     return(
     <div style={styles.div}>
         <Logo />
+        <h1 style={styles.styletitle} >INTÉGRATEUR WEB</h1>
         <Nav />
     </div> 
     )
@@ -18,7 +19,11 @@ const styles={
         flexDirection:'row',
         justifyContent:'space-between', 
         padding:'5px 15px',
-        alignItems:'center'
+        alignItems:'center',
+        background: 'lightgrey',
+    },
+    styletitle:{
+        paddingLeft:'170px'
     }
 }
     export default Header;

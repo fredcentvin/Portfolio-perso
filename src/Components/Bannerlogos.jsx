@@ -21,7 +21,7 @@ const styles={
     gridBannerLogos:{
         display:'flex',
         flexDirection:'row',
-        gap:'15px'
+        gap:'30px'
     },
     img:{
         

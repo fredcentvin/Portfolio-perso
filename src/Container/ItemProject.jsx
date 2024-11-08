@@ -1,35 +1,36 @@
+
 import pageohmyfood from '../assets/images/pageohmyfood.webp';
 import pagekasa from '../assets/images/pagekasa.webp';
 import pageargentbank from '../assets/images/pageargentbank.webp';
 import backgroundImage from '../assets/images/fonddepage.webp';
 import Bannerlogos from '../Components/Bannerlogos';
 
-function ItemProjects() {
+function ItemProject() {
     const handleClick = () => {
         console.log('Lien cliqué');
     };
     return (
         <div className="gridProjects" style={styles.gridProjects}>
-            <h2 className="projectsTitle" style={styles.projectsTitle}>Quelques réalisations</h2>
+            <h2 className="projectsTitle" style={styles.projectsTitle}>Quelques exemples de réalisations</h2>
             <Bannerlogos />
             <ul style={styles.ul}>
                 <li style={styles.li}>
                     <div className='backView' style={{ ...styles.backView, backgroundImage: `url(${backgroundImage})` }}></div>
                     <h3 className="title" style={styles.title}>Oh my food</h3>
-                    <p className="descriptionProject" style={styles.descriptionProject}>Réalisation d'un site vitrine pour les cartes de divers restaurateurs</p>
+                    <p className="descriptionProject" style={styles.descriptionProject}>Réalisation d'un site responsive vitrine pour les cartes de divers restaurateurs</p>
                     <img src={pageohmyfood} alt="header projet" style={styles.imgbig}></img>
                     <a href='https://fredcentvin.github.io/projet4-ohmyfood/' target="_blank" rel="noopener noreferrer" onClick={handleClick} style={styles.a} >Visitez le site Oh my food</a>
                 </li>
                 <li style={styles.li}>
                     <div className='backView' style={{ ...styles.backView, backgroundImage: `url(${backgroundImage})` }}></div>
                     <h3 className="title" style={styles.title}>Kasa</h3>
-                    <p className="descriptionProject" style={styles.descriptionProject}>Site pour de la location d'appartements entre particuliers</p>
+                    <p className="descriptionProject" style={styles.descriptionProject}>Site responsive pour de la location d'appartements entre particuliers</p>
                     <img src={pagekasa} alt="page d'accueil kasa" style={styles.img}></img>
                 </li>
                 <li style={styles.li}>
                     <div className='backView' style={{ ...styles.backView, backgroundImage: `url(${backgroundImage})` }}></div>
                     <h3 className="title" style={styles.title}>ArgenBank</h3>
-                    <p className="descriptionProject" style={styles.descriptionProject}>Façonnage du site d'une banque</p>
+                    <p className="descriptionProject" style={styles.descriptionProject}>Façonnage du site d'une banque en ligne utilisant Redux</p>
                     <img src={pageargentbank} alt="profil de frédéric" style={styles.img}></img>
                 </li>
             </ul>
@@ -75,7 +76,7 @@ const styles = {
     projectsTitle: {
         fontSize: '22px',
         alignItems: 'center',
-        color:'black',
+        color:'#3498db',
         marginBottom:'0'
     },
     title: {
@@ -105,4 +106,4 @@ const styles = {
     }
 };
 
-export default ItemProjects;
+export default ItemProject;

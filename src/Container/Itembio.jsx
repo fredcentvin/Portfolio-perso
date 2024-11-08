@@ -1,6 +1,6 @@
 import moi from '../assets/images/moi.webp'
 
-function Itembio(){
+function ItemBio(){
 	return(
 		<div className='gridItem'style={styles.gridItem} >
 			<img src= {moi} alt="profil de frédéric" style={styles.img}></img>
@@ -33,4 +33,4 @@ const styles={
 		borderRadius:'50%'
 	}
 }
-export default Itembio
+export default ItemBio
