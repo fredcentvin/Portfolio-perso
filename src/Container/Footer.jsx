@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div style={styles.div}>
             <FontAwesomeIcon icon={faCopyright} style={styles.icon}  />
-            <p>Copyright 2024 Frédéric Boniface</p>
+            <p>Copyright 2024 - Frédéric Boniface</p>
             <img src={logo1} alt="logo agence" style={styles.img} />
         </div>
     );

@@ -1,11 +1,19 @@
 import React from 'react';
 import Itembio from '../Container/Itembio.jsx';
-import backgroundImage from '../assets/images/fonddepage.webp'; // Mettez le bon chemin vers votre image
+import ItemProjects from '../Container/ItemProject.jsx';
+import backgroundImage from '../assets/images/fonddepage.webp';
+
 
 function Home() {
     return (
-        <div className='backView' style={{ ...styles.backView, backgroundImage: `url(${backgroundImage})` }}>
-            <Itembio />
+        <div>
+            <div className='backView' style={{ ...styles.backView, backgroundImage: `url(${backgroundImage})` }}>
+                <Itembio />
+            </div>
+            <div className='blockItem' style={styles.blockItem} >
+                <ItemProjects />
+               
+            </div>
         </div>
     );
 }
@@ -13,10 +21,15 @@ function Home() {
 const styles = {
     backView: {
         backgroundImage:'url(../assets/images/fonddepage.webp)',
-        backgroundSize: 'cover', // Pour couvrir tout l'élément
-        opacity:'0.5',
-        zIndex:'-1'  
+        backgroundSize: 'cover', 
+        opacity:'0.8',
+        zIndex:'0',
     },
+    blockItem:{
+        background:'lightgrey',
+        position:'relative',
+        zIndex:'1'
+    }
     
 };
 
