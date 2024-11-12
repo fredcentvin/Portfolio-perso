@@ -17,7 +17,7 @@ function Nav() {
             <div className="navContainer" style={styles.navContainer}>
                 <a href={moncv} target="_blank" rel="noopener noreferrer" style={styles.pNav}>CV</a>
                 <p style={styles.pNav} onClick={handleContactClick}>CONTACT</p>
-                <a href="#projects" style={styles.pNav}>MES REALISATIONS</a> {/* Lien vers l'ID */}
+                <a href="#projects" style={styles.pNav}>MES RÉALISATIONS</a> {/* Lien vers l'ID */}
             </div>
             {showForm && (
                 <div style={styles.modalOverlay}>
@@ -42,7 +42,7 @@ function Nav() {
                                     <textarea name="message"></textarea>
                                 </label>
                             </div>
-                            <button type="submit">Envoyer</button>
+                            <button type="submit" style={styles.buttonValidForm} >Envoyer</button>
                         </form>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const styles = {
     navContainer: {
         display: 'flex',
         flexDirection: 'row',
-        gap: '20px',
+        gap: '30px',
         paddingLeft:'50px',
         paddingRight:'50px',
         alignItems:'center'
@@ -98,7 +98,9 @@ const styles = {
     form: {
         display: 'flex',
         flexDirection: 'column',
-        gap: '10px'
+        width:'300px',
+        height:'300px',
+        gap: '20px'
     },
     formInput:{
         display:'flex',
@@ -106,10 +108,16 @@ const styles = {
     },
     blockLabel:{
         display:'flex',
-        flexDirection:'column'
+        flexDirection:'column',
+       
     },
     a:{
 
+    },
+    buttonValidForm:{
+        background:'#3498db',
+        height:'40px',
+        marginTop:'15px'
     }
 };
 
