@@ -1,0 +1,16 @@
+.gridBannerLogos{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px){
+    .fixImgLogos{
+        width: 30px;
+        height: auto;
+    }
+    .gridBannerLogos{
+        gap: 20px;
+    }
+}

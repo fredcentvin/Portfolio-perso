@@ -1,0 +1,26 @@
+.Gridheader {
+    display: flex; 
+    flex-Direction: row;
+    justify-Content: space-between; 
+    padding:5px 15px;
+    align-items:center;
+    background: #cad0d5;
+}
+h1 {
+    padding-left: 170px;
+    font-family: Righteous;
+    color:#5e7073;
+}
+@media (max-width: 768px){
+    .Gridheader{
+        flex-wrap: wrap;
+    }
+    h1 {
+        padding-left: 30px;
+        font-size: 18px;
+    }
+    .logoHeader{
+        width: 64px;
+        height: 64px;
+    }
+}

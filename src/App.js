@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Header from "../src/Container/Header";
-import Footer from '../src/Container/Footer';
+import Header from "./Container/header/Header.jsx";
+import Footer from './Container/footer/Footer.jsx';
 import Home from './pages/home';
-import ItemProject from '../src/Container/ItemProject'; 
+import ItemProject from './Container/itemProject/ItemProject.jsx'; 
 import './App.css';
 
 export default function App() {

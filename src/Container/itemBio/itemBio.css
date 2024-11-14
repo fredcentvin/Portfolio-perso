@@ -1,0 +1,58 @@
+.gridItem{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.pBio{
+    font-size: 18px;
+    padding: 20px 200px 10px 30px;
+    margin: 0 50px 30px 50px;
+    color: #5e7073;
+    font-family: Righteous;
+    font-weight: 200;
+}
+.imageItem{
+    width: 200px;
+    height: 200px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+}
+.gridBio{
+    display: flex;
+    flex-direction: column;
+}
+.bioTitle{
+    font-size: 30px;
+    color: #5e7073;
+    padding-left: 80px;
+    margin-bottom: 0;
+    font-family: Righteous;
+    font-weight: 300;
+}
+
+@media (max-width: 768px){
+    .gridItem{
+        margin-left: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageItem{
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+    .pBio{
+        font-size: 14px;
+        padding: 0;
+        margin: 0 10px 10px 10px;
+    }
+    .bioTitle{
+        font-size: 22px;
+        margin-top: 0;
+    }
+}
+
