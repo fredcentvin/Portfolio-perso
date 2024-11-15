@@ -41,8 +41,8 @@
     .imageItem{
         width: 100px;
         height: 100px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 15px;
         margin-right: 20px;
     }
     .pBio{
@@ -53,6 +53,13 @@
     .bioTitle{
         font-size: 22px;
         margin-top: 0;
+    }
+    .scrollContainer {
+         max-height: 150px; 
+         overflow-y: auto; 
+         padding: 10px; 
+         border: 1px solid #ddd; 
+         border-radius: 4px; 
     }
 }
 

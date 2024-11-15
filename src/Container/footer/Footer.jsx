@@ -1,15 +1,15 @@
 import React from 'react';
 import logo1 from '../../assets/logos/logo1.webp';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCopyright } from '@fortawesome/free-solid-svg-icons';
+
+
 import './footer.css'
 
 
 function Footer() {
     return (
         <div className='gridFooter'>
-            <FontAwesomeIcon icon={faCopyright} className='fixIconeFooter'  />
-            <p className='pFooter' >Copyright 2024 - Frédéric Boniface</p>
+           
+            <p className='pFooter' > Copyright 2024 - Frédéric Boniface</p>
             <img  className='fixLogoAgence' src={logo1} alt="logo agence" />
         </div>
     );

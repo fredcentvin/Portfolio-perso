@@ -2,7 +2,7 @@
     font-family: Righteous;
     text-align: center;
     font-size: 16px;
-    color: #2c3e50;
+    color: #5e7073;
     border-top: 2px solid #ccc;
 }
 .fixLogoAgence{
@@ -16,9 +16,13 @@
 }
 .pFooter{
     font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 @media (max-width: 768px){
     .pFooter{
         font-size: 14px;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 }
