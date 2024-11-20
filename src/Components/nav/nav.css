@@ -10,8 +10,16 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: #3498db;
-    font-weight: 300;
+    color: #87b3ba;
+    font-weight: 700;
+    font-family: Righteous;
+}
+.pApropos{
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #87b3ba;
+    font-weight: 700;
     font-family: Righteous;
 }
 .modalOverlay{
@@ -66,8 +74,8 @@ a{
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: #3498db;
-    font-weight: 300;
+    color: #87b3ba;
+    font-weight: 700;
     font-family: Righteous;
     margin-bottom: 0;
 }

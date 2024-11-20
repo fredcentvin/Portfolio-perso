@@ -7,7 +7,7 @@ function Header() {
     return(
     <div className="Gridheader">
         <Logo className='logoHeader' />
-        <h1>INTÉGRATEUR WEB</h1>
+        <h1>AGENCE DE DEVELOPPEMENT WEB</h1>
         <Nav />
     </div> 
     )

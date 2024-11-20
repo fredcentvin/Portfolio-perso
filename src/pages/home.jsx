@@ -1,6 +1,6 @@
 import React from 'react';
-import ItemBio from '../Container/itemBio/ItemBio.jsx';
-import ItemProject from '../Container/itemProject/ItemProject.jsx';
+import Dcbio from '../Container/dcbio/dcbio.jsx';
+// import ItemProject from '../Container/itemProject/ItemProject.jsx';
 import backgroundImage from '../assets/images/fonddepage.webp';
 
 function Home() {
@@ -8,11 +8,11 @@ function Home() {
         <div>
             <div className='backView' style={styles.backView}>
                 <div style={styles.backgroundOverlay}></div>
-                <ItemBio />
+                <Dcbio />
             </div>
-            <div id="projects" className='blockItem' style={styles.blockItem}>
+            {/* <div id="projects" className='blockItem' style={styles.blockItem}>
                 <ItemProject />
-            </div>
+            </div> */}
         </div>
     );
 }
@@ -37,7 +37,7 @@ const styles = {
         zIndex: '-1',
     },
     blockItem: {
-        background: '#cad0d5',
+        background: '#484d51',
         position: 'relative',
         zIndex: '1'
     },
