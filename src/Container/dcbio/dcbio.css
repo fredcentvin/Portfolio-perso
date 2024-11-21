@@ -152,24 +152,29 @@
 
 @media (max-width: 768px){
     .gridItemAgence{
-        margin-left: 10px;
-        flex-direction: column;
+        margin-left: 5px;
         align-items: center;
+        flex-direction: column;
+        padding: 5px;
+        max-width: 300px;
     }
     .imageItemdcbio{
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         margin-top: 20px;
         margin-bottom: 15px;
         margin-right: 20px;
+        top: 10%;
+        left:35%;
     }
     .pDcBio{
-        font-size: 14px;
+        font-size: 12px;
         padding: 0;
         margin: 0 10px 10px 10px;
+        max-width: 300px;
     }
     .dcbioTitle{
-        font-size: 22px;
+        font-size: 18px;
         margin-top: 0;
     }
     .scrollContainer {
@@ -178,6 +183,60 @@
          padding: 10px; 
          border: 1px solid #ddd; 
          border-radius: 4px; 
+         margin-left: 25px;
+    }
+    .descriptionAgence{
+      max-width: 300px;
+      padding: 0 12px;
+      margin-left: 30px;
+    }
+    .textDescription{
+      font-size: 12px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .ourServices{
+      flex-direction: column;
+      max-width: 300px;
+      gap: 20px;
+    }
+    .ourChoice{
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0;
+      gap: 20px;
+    }
+    .descriptionAgence .dcbioTitle{
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
+    .titleServices{
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .gridServices{
+      padding: 15px 15px;
+      max-width: 300px;
+    }
+    .gridChoice{
+      margin-top: 20px;
+      padding: 15px 5px;
+      align-items: center;
+    }
+    .gridContact{
+      padding: 15px 15px;
+    }
+    .contact{
+      max-width: 300px;
+    }
+    .gridDcBio{
+      max-width: 300px;
+    }
+    .adresse{
+      font-size: 12px;
+      margin-bottom: 0;
     }
 }
 

@@ -75,8 +75,8 @@ function DcBio() {
       
           <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 						<span className='adresse' itemprop="streetAddress">46 rue des Ormes</span>
-						<span className='adresse'itemprop="addressLocality">Saint-Pierre les Nemours</span>,
-						<span className='adresse'itemprop="addressRegion"> Saint-Pierre les Nemours</span>
+						<span className='adresse'itemprop="addressLocality">Saint-Pierre les Nemours</span>
+						<span className='adresse'itemprop="addressRegion"> Ile de France</span>
 						<span className='adresse'itemprop="postalCode">77140</span>
 						<span className='adresse'itemprop="openingHours">Du lundi au vendredi de 10h à 19h</span>
 					</div>
