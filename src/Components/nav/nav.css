@@ -10,7 +10,7 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: #87b3ba;
+    /* color: #87b3ba; */
     font-weight: 700;
     font-family: Righteous;
 }
@@ -18,7 +18,7 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: #87b3ba;
+    /* color: #87b3ba; */
     font-weight: 700;
     font-family: Righteous;
 }
@@ -74,7 +74,8 @@ a{
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: #87b3ba;
+    /* color: #87b3ba; */
+    color: black;
     font-weight: 700;
     font-family: Righteous;
     margin-bottom: 0;

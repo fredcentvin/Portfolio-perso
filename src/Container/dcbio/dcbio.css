@@ -24,7 +24,7 @@
   
   }
   .gridDcBio .dcbioTitle{
-    color:#5e7073;
+    color:black;
   }
   
   
@@ -33,7 +33,7 @@
     font-size: 24px;
     margin-top: 80px;
     margin-bottom: 15px;
-    color: #5e7073;
+    color: black;
     text-align: center;
   }
   
@@ -49,8 +49,8 @@
   .pDcBio {
     font-family: Righteous;
     font-size: 16px;
-    color: #5e7073;
-    font-weight: 700;
+    color: black;
+    font-weight: 300;
     line-height: 1.5;
     text-align: start;
   }
@@ -58,18 +58,18 @@
     margin-top: 80px;
     font-family: Righteous;
     font-size: 16px;
-    color: #5e7073;
-    font-weight: 700;
+    color: black;
+    font-weight: 300;
     line-height: 1.5;
     text-align: start;
     padding: 0 30px;
-    background: #484d51;
+    background: #727d86;
     border-radius: 8px;
-    width: 1100px;
+    width: 1150px;
     box-shadow:5px 3px 8px #497ea7;
   }
   .descriptionAgence .dcbioTitle{
-    color:#87b3ba;
+    color:black;
     margin-top: 30px;
   }
   .ourServices{
@@ -82,8 +82,8 @@
   .gridServices{
     display:flex;
     flex-direction: column;
-    background: #484d51;
-    width: 300px;
+    background: #727d86;
+    width: 320px;
     height: auto;
     padding: 15px 30px;
     align-items: center;
@@ -93,42 +93,42 @@
   .titleServices{
     font-family: Righteous;
     font-size: 24px;
-    margin-bottom: 10px;
-    color: #87b3ba;
+    margin:0 10px;
+    color: black;
     align-items: center;
   }
   .textDescription{
     font-family: Righteous;
     font-size: 16px;
-    color: #87b3ba;
-    font-weight: 700;
+    color: black;
+    font-weight: 300;
     line-height: 1.5;
     text-align: start;
   }
   .ourChoice{
     display: flex;
     flex-direction: row;
-    margin: 30px 0;
+    margin-bottom: 30px;
     gap: 40px;
   }
   .gridChoice{
     width: 320px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
     flex-direction: column;
-    background: #484d51;
-    padding: 15px 20px;
+    background: #727d86;
+    padding: 15px 30px;
     border-radius: 8px;
     box-shadow:5px 3px 8px #497ea7;
   }
   .gridContact{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 300px;
-    background: #484d51; 
+    align-items:flex-start;
+    width: 320px;
+    background: #727d86; 
     margin-top: 50px;
-    padding: 15px 20px;
+    padding: 15px 30px;
     border-radius: 8px;
     box-shadow:5px 3px 8px #497ea7;
   }
@@ -136,7 +136,7 @@
     font-family: Righteous;
     font-size: 24px;
     margin-bottom: 10px;
-    color: #87b3ba;
+    color: black;
     align-items: center;
   }
   .adresse{
@@ -144,8 +144,7 @@
     align-items: self-start;
     font-family: Righteous;
     font-size: 16px;
-    margin-bottom: 10px;
-    color: #87b3ba;
+    color: black;
     align-items: center;
   }
   
@@ -175,7 +174,7 @@
     }
     .dcbioTitle{
         font-size: 18px;
-        margin-top: 0;
+        margin-top: 30px;
     }
     .scrollContainer {
          max-height: 150px; 
@@ -221,22 +220,29 @@
       max-width: 300px;
     }
     .gridChoice{
-      margin-top: 20px;
+      /* margin-top: 20px; */
       padding: 15px 5px;
       align-items: center;
     }
     .gridContact{
       padding: 15px 15px;
+      width: 300px;
     }
     .contact{
       max-width: 300px;
     }
+    .titleContact{
+      padding-left: 55px;
+
+    }
     .gridDcBio{
       max-width: 300px;
+      margin-left: 25px;
     }
     .adresse{
       font-size: 12px;
       margin-bottom: 0;
+      padding-left: 15px;
     }
 }
 

@@ -4,6 +4,7 @@ import pageohmyfood from '../../assets/images/ohmyfood.png';
 import pagekasa from '../../assets/images/kasa.png';
 import pageargentbank from '../../assets/images/argentbank.png';
 import pagePrintit from '../../assets/images/printit.png';
+import pagePortfolio from '../../assets/images/portfolio.png'
 import Bannerlogos from '../../Components/bannerLogos/Bannerlogos';
 import './itemProject.css';
 
@@ -32,6 +33,13 @@ function ItemProject() {
             description: "Création du site d'une société familiale d'impression en utilisant javascript pour l'animation d'un carrousel",
             img: pagePrintit,
             link: "https://fredcentvin.github.io/Projet5-Print-it/"
+        },
+        {
+            title:"Portfolio frédéric",
+            description:"Projet de fin d'étude Openclassrooms utilisant REACT",
+            img: pagePortfolio,
+            link: "https://agence-devcode.fr/"
+
         }
     ];
 
