@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import logo from '../../assets/logos/logo1.webp';
 import './dcbio.css';
+import Bannerlogos from '../../Components/bannerLogos/Bannerlogos';
 
 function DcBio() {
   const [logoAnimation, setLogoAnimation] = useState({ x: 0, y: 0, rotate: 0 });
@@ -25,7 +26,7 @@ function DcBio() {
       />
       <div className='gridDcBio'>
         <h2 className='dcbioTitle'>À propos de nous</h2>
-        <div className='scrollContainer'>
+        <div className='scrollContainerDcBio'>
           <p className='pDcBio'>
             Bienvenue chez Agence Devcode Située au cœur de la Seine-et-Marne, l'agence Devcode est votre partenaire de confiance pour tous vos besoins en développement web. Spécialisés dans la création de sites internet adaptés à tous les supports – PC, mobiles et tablettes – nous mettons notre expertise au service de votre réussite digitale.
           </p>
@@ -64,6 +65,7 @@ function DcBio() {
         <div className='gridChoice'>
           <h3 className='titleServices'>Technologies de pointe :</h3>
           <p className='textDescription'>Nous utilisons les dernières technologies et pratiques de développement pour vous offrir des sites web modernes et performants.</p>
+          
         </div>
       </div>
       
@@ -74,6 +76,7 @@ function DcBio() {
       
       
           <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          
 						<span className='adresse' itemprop="streetAddress">46 rue des Ormes</span>
 						<span className='adresse'itemprop="addressLocality">Saint-Pierre les Nemours</span>
 						<span className='adresse'itemprop="addressRegion"> Ile de France</span>
@@ -83,7 +86,7 @@ function DcBio() {
         </div>
        
       </div>
-      
+      <Bannerlogos className='gridBannerLogos' />
     </div>
   );
 }

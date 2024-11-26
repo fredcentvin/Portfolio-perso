@@ -18,7 +18,7 @@ code {
   font-style: normal;
 }
 
-@media (max-width= 768px){
+@media (min-width= 768px){
  h1{ 
   font-size: 22px;
 }

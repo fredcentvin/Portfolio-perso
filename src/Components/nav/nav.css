@@ -1,74 +1,31 @@
+.pNav{
+    display: flex;
+    flex-direction: row;
+    font-family: Righteous;
+    font-weight: 300;
+    text-decoration: none;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 .navContainer{
     display: flex;
-        flex-direction: row;
-        gap: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
-        align-items: center;
-}
-.pNav{
-    font-size: 14px;
-    cursor: pointer;
-    text-decoration: none;
-    /* color: #87b3ba; */
-    font-weight: 700;
-    font-family: Righteous;
+    padding-left: 0;
+    padding-right: 0;
+    gap:35px;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
 }
 .pApropos{
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
     /* color: #87b3ba; */
-    font-weight: 700;
+    font-weight: 300;
     font-family: Righteous;
-}
-.modalOverlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; 
-}
-.modal{
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-    position: relative;
-    z-index: 1001; 
-}
-.closeButton{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    gap: 20px;
-}
-.formInput{
-    display: flex;
-    flex-direction: column;
-}
-.blockLabel{
-    display: flex;
-    flex-direction: column;
-}
-.buttonValidForm{
-    background: #3498db;
-    height: 40px;
-    margin-top: 15px;
 }
 a{
     font-size: 14px;
@@ -76,37 +33,106 @@ a{
     text-decoration: none;
     /* color: #87b3ba; */
     color: black;
-    font-weight: 700;
+    font-weight: 300;
     font-family: Righteous;
     margin-bottom: 0;
 }
-@media (max-width: 768px){
+
+
+@media (min-width: 768px){
     a{
-        font-size: 12px; 
+        font-size: 14px; 
     }
     .pNav{
-        font-size: 12px;
+        gap: 30px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        align-items: center;
+        font-size: 14px;
         margin-bottom: 0;
         margin-top: 0;
     }
     .navContainer{
         padding-left: 0;
         padding-right: 0;
-        gap:20px;
+        gap:80px;
         margin-left: 0;
         margin-top: 15px;
     }
-    .modalOverlay{
-        left: -10px;
-    }
-    .modal{
-        padding: 20px;
-    }
-    .form{
-        width: 280px;
-    }
+    
     .pApropos{
-        font-size: 12px;
+        font-size: 14px;
     }
    
+}
+@media (min-width: 1024px){
+    .navContainer{
+        gap:30px;
+    }
+}
+@media (min-width:1440px){
+    .navContainer{
+        display: flex;
+            flex-direction: row;
+            gap: 30px;
+            /* padding-left: 50px;
+            padding-right: 50px; */
+            align-items: center;
+    }
+    .pNav{
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        /* color: #87b3ba; */
+        font-weight: 700;
+        font-family: Righteous;
+    }
+    .pApropos{
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        /* color: #87b3ba; */
+        font-weight: 700;
+        font-family: Righteous;
+    }
+    .closeButton{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        gap: 20px;
+    }
+    .formInput{
+        display: flex;
+        flex-direction: column;
+    }
+    .blockLabel{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonValidForm{
+        background: #3498db;
+        height: 40px;
+        margin-top: 15px;
+    }
+    a{
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        /* color: #87b3ba; */
+        color: black;
+        font-weight: 700;
+        font-family: Righteous;
+        margin-bottom: 0;
+    }
+
 }

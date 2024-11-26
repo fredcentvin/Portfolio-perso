@@ -6,7 +6,7 @@ import backgroundImage from '../assets/images/fonddepage.webp';
 function Home() {
     return (
         <div>
-            <div className='backView' style={styles.backView}>
+            <div className='backViewDc' style={styles.backViewDc}>
                 <div style={styles.backgroundOverlay}></div>
                 <Dcbio />
             </div>
@@ -18,8 +18,8 @@ function Home() {
 }
 
 const styles = {
-    backView: {
-        display:'flex',
+    backViewDc: {
+        // display:'flex',
         position: 'relative',
         zIndex: '0',
     },
@@ -42,7 +42,7 @@ const styles = {
         zIndex: '1'
     },
     '@media (max-width: 358px)':{
-        backView:{
+        backViewDc:{
             flexDirection:'row'
         }
 

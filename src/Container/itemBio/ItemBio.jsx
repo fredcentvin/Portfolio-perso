@@ -4,11 +4,11 @@ import './itemBio.css';
 
 function ItemBio() {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = `Boonjour et bienvenue sur mon portfolio! Je m'appelle Frédéric Boniface et je suis intégrateur web junior.
-  Après plus de 20 années passées dans l'univers de la maintenance industrielle, j'ai envisagé une reconversion professionnelle.
-  Passionné de longues dates par l'informatique, je me suis naturellement tourné vers l'intégration web en réalisant un parcours de formation chez OpenClassrooms menant à l'obtention d'un diplôme de niveau V et son équivalence RNCP.
-  Durant ce parcours j'ai pu oeuvrer à la réalisation de divers projets utilisants différents langages tels que : HTML, CSS, SASS, JAVASCRIPT, JEST, REACT, REDUX et en intégrant la démarche SEO.
-  En appliquant les principes de la méthode agile SCRUM, la gestion de version est déposée sur Github pour favoriser la collaboration.`;
+  const fullText = `Boonjour et bienvenue sur mon portfolio! Je m'appelle Frédéric Boniface et je suis un intégrateur web junior.
+
+Après plus de 20 ans dans le domaine de la maintenance industrielle, j'ai décidé de me reconvertir professionnellement. Passionné d'informatique depuis longtemps, j'ai naturellement choisi l'intégration web. J'ai suivi une formation chez OpenClassrooms, qui m'a permis d'obtenir un diplôme de niveau V, reconnu par le RNCP.
+
+Au cours de cette formation, j'ai travaillé sur divers projets utilisant des langages tels que HTML, CSS, SASS, JavaScript, Jest, React et Redux, tout en intégrant les principes du SEO. En appliquant la méthode agile SCRUM, j'ai également utilisé GitHub pour la gestion de version, favorisant ainsi la collaboration.`;
 
   useEffect(() => {
     let index = 0;

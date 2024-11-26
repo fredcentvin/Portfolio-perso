@@ -15,14 +15,14 @@
     margin-top: 15px;
 }
 .pFooter{
-    font-size: 24px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
     .pFooter{
-        font-size: 14px;
-        margin-top: 6px;
-        margin-bottom: 6px;
+        font-size: 24px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 }

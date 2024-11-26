@@ -4,7 +4,7 @@ import './logo.css';
 
 const Logo = () => {
     return (
-        <div>
+        <div className='gridLogoHeader' >
             <a href="/">
                 <img className='fixLogo' src={logo1} alt="logo agence" />
             </a>
