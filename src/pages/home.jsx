@@ -1,6 +1,5 @@
 import React from 'react';
 import Dcbio from '../Container/dcbio/dcbio.jsx';
-// import ItemProject from '../Container/itemProject/ItemProject.jsx';
 import backgroundImage from '../assets/images/fonddepage.webp';
 
 function Home() {
@@ -10,16 +9,13 @@ function Home() {
                 <div style={styles.backgroundOverlay}></div>
                 <Dcbio />
             </div>
-            {/* <div id="projects" className='blockItem' style={styles.blockItem}>
-                <ItemProject />
-            </div> */}
+          
         </div>
     );
 }
 
 const styles = {
     backViewDc: {
-        // display:'flex',
         position: 'relative',
         zIndex: '0',
     },
@@ -28,7 +24,6 @@ const styles = {
         backgroundSize: 'cover',
         backgroundPosition: '45% 100%',
         backgroundRepeat: 'no-repeat',
-        opacity: '0.3',
         position: 'absolute',
         top: 0,
         left: 0,

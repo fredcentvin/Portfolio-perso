@@ -1,9 +1,8 @@
 .gridFooter{
-    font-family: Righteous;
     text-align: center;
     font-size: 16px;
     color: black;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid #0a3d62;
 }
 .fixLogoAgence{
     width: 60px;
@@ -19,6 +18,12 @@
     margin-top: 6px;
     margin-bottom: 6px;
 }
+.gridLinkSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 @media (min-width: 768px){
     .pFooter{
         font-size: 24px;

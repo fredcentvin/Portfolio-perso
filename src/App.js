@@ -3,8 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./Container/header/Header.jsx";
 import Footer from './Container/footer/Footer.jsx';
 import Home from './pages/home';
-import Apropos from './pages/apropos'
+import Apropos from './pages/apropos';
 import ItemProject from './Container/itemProject/ItemProject.jsx'; 
+import NosServices from './Container/nosservices/Nosservices.jsx'; 
 import './App.css';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/apropos" element={<Apropos />} />
         <Route path="/projects" element={<ItemProject />} /> 
+        <Route path="/nosservices" element={<NosServices />} /> 
       </Routes>
       <Footer />
     </main>

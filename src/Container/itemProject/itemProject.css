@@ -3,15 +3,21 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    background-color: #ddd;
 }
 
 .projectsTitle {
     font-size: 22px;
-    font-family: 'Righteous', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     color: black;
     margin-bottom: 0;
     margin-top: 30px;
+}
+.projectSubtitle{
+    font-size: 18px;
+    color:rgb(152, 151, 151);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .projectsContainer {
@@ -31,7 +37,7 @@
 }
 
 .projectSquare {
- 
+    box-shadow:5px 3px 8px #497ea7; 
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
@@ -47,6 +53,7 @@
     width:400px;
     height: auto;
     margin: auto;
+   
 }
 
 .projectDetail {
@@ -62,24 +69,28 @@
 .title {
     font-size: 14px;
     margin: 5px 0;
-    font-family: Righteous;
     color: black;
     text-align: center;
 }
 
 .description {
     margin: 10px 0;
-    font-family: Righteous;
     color: black;
     font-size: 12px;
 }
 
 .designLink {
-    color: #007bff;
+    color: #0a3d62;
     text-decoration: underline;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
+.tags{
+    border: 1px solid #0a3d62;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 10px;
+    background-color:#0a3d62 ;
+  }
 
 
 @media (max-width: 768px){
@@ -123,5 +134,16 @@
     }
     .projectDetail{
         width: 310px;
+    }
+    .tags{
+        border: 1px solid #0a3d62;
+        font-size: 8px;
+        color: white;
+        margin-top: 10px;
+      }  
+}
+@media(min-width:1024px){
+    .gridProjects{
+        gap:20px;
     }
 }

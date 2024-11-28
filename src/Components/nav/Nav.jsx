@@ -7,11 +7,7 @@ function Nav() {
     const [showEmail, setShowEmail] = useState(false);
 
     const handleContactClick = () => {
-        setShowEmail(true);
-    };
-
-    const handleEmailClick = () => {
-        setShowEmail(false);
+        setShowEmail(prevShowEmail => !prevShowEmail);
     };
 
     return (
@@ -20,11 +16,12 @@ function Nav() {
                 <Link className="pApropos" to="/apropos">A PROPOS</Link>
                 <a className="fixCv" href={moncv} target="_blank" rel="noopener noreferrer">CV</a>
                 <p className="pNav" onClick={handleContactClick}>CONTACT</p>
-                <a href="#projects">NOS PROJETS</a>
+                <Link to="/projects">NOS PROJETS</Link>
+                <Link to="/nosservices">NOS SERVICES</Link> 
             </div>
             {showEmail && (
                 <div className="emailDisplay">
-                    <a href="mailto:frederic@agence-devcode.fr" onClick={handleEmailClick}>frederic@agence-devcode.fr</a>
+                    <a href="mailto:frederic@agence-devcode.fr" className="linkMail" >frederic@agence-devcode.fr</a>
                 </div>
             )}
         </div>
@@ -32,6 +29,9 @@ function Nav() {
 }
 
 export default Nav;
+
+
+
 
 
 

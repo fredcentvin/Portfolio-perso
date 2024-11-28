@@ -1,40 +1,37 @@
 .pNav{
     display: flex;
     flex-direction: row;
-    font-family: Righteous;
     font-weight: 300;
     text-decoration: none;
     align-items: center;
     font-size: 12px;
     margin-bottom: 0;
     margin-top: 0;
+    color:#ddd;
 }
 .navContainer{
     display: flex;
     padding-left: 0;
     padding-right: 0;
-    gap:35px;
-    margin-left: 0;
+    gap:15px;
+    margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
 }
 .pApropos{
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     text-decoration: none;
-    /* color: #87b3ba; */
+    color:#ddd;
     font-weight: 300;
-    font-family: Righteous;
 }
 a{
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     text-decoration: none;
-    /* color: #87b3ba; */
-    color: black;
+    color:#ddd;
     font-weight: 300;
-    font-family: Righteous;
     margin-bottom: 0;
 }
 
@@ -45,8 +42,6 @@ a{
     }
     .pNav{
         gap: 30px;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         align-items: center;
         font-size: 14px;
         margin-bottom: 0;
@@ -75,25 +70,24 @@ a{
         display: flex;
             flex-direction: row;
             gap: 30px;
-            /* padding-left: 50px;
-            padding-right: 50px; */
+
             align-items: center;
     }
     .pNav{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
-        /* color: #87b3ba; */
+   
         font-weight: 700;
-        font-family: Righteous;
+        /* font-family: Righteous; */
     }
     .pApropos{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
-        /* color: #87b3ba; */
+   
         font-weight: 700;
-        font-family: Righteous;
+        /* font-family: Righteous; */
     }
     .closeButton{
         position: absolute;
@@ -128,10 +122,8 @@ a{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
-        /* color: #87b3ba; */
-        color: black;
         font-weight: 700;
-        font-family: Righteous;
+        /* font-family: Righteous; */
         margin-bottom: 0;
     }
 

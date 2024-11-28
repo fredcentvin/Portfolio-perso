@@ -4,7 +4,7 @@ import pageohmyfood from '../../assets/images/ohmyfood.png';
 import pagekasa from '../../assets/images/kasa.png';
 import pageargentbank from '../../assets/images/argentbank.png';
 import pagePrintit from '../../assets/images/printit.png';
-import pagePortfolio from '../../assets/images/portfolio.png'
+import pagePortfolio from '../../assets/images/portfolio.png';
 import Bannerlogos from '../../Components/bannerLogos/Bannerlogos';
 import './itemProject.css';
 
@@ -16,30 +16,34 @@ function ItemProject() {
             title: "Oh my food",
             description: "Réalisation d'un site responsive vitrine pour les cartes de divers restaurateurs en utilisant SASS, et intégrant quelques animations",
             img: pageohmyfood,
-            link: 'https://fredcentvin.github.io/projet4-ohmyfood/'
+            link: 'https://fredcentvin.github.io/projet4-ohmyfood/',
+            tag: "HTML, SASS"
         },
         {
             title: "Kasa",
             description: "Site responsive pour de la location d'appartements entre particuliers utilisant React",
-            img: pagekasa
+            img: pagekasa,
+            tag: "REACT, CSS"
         },
         {
             title: "ArgentBank",
             description: "Façonnage du site d'une banque en ligne utilisant React, Redux, ainsi que de l'identification auprès du serveur avec un token et utilisation de la méthode CRUD",
-            img: pageargentbank
+            img: pageargentbank,
+            tag: "REACT, REACT-ROUTER, CSS"
         },
         {
             title: "Print it",
             description: "Création du site d'une société familiale d'impression en utilisant javascript pour l'animation d'un carrousel",
             img: pagePrintit,
-            link: "https://fredcentvin.github.io/Projet5-Print-it/"
+            link: "https://fredcentvin.github.io/Projet5-Print-it/",
+            tag: "HTML, CSS, JAVASCRIPT"
         },
         {
-            title:"Portfolio frédéric",
-            description:"Projet de fin d'étude Openclassrooms utilisant REACT",
+            title: "Portfolio Frédéric",
+            description: "Projet de fin d'étude Openclassrooms utilisant REACT",
             img: pagePortfolio,
-            link: "https://agence-devcode.fr/"
-
+            link: "https://agence-devcode.fr/",
+            tag: "REACT, CSS, REACT-ROUTER"
         }
     ];
 
@@ -50,6 +54,7 @@ function ItemProject() {
     return (
         <div className="gridProjects">
             <h2 className="projectsTitle">Quelques exemples de réalisations</h2>
+            <h3 className='projectSubtitle'>Projets d'étude</h3>
             <div className="projectsContainer">
                 {projects.map((project, index) => (
                     <div key={index} className="projectWrapper">
@@ -71,6 +76,7 @@ function ItemProject() {
                                 >
                                     <h3 className="title">{project.title}</h3>
                                     <p className="description">{project.description}</p>
+                                    <p className="tags">{project.tag}</p> 
                                     {project.link && (
                                         <a className="designLink" href={project.link} target="_blank" rel="noopener noreferrer">
                                             Visitez le site {project.title}

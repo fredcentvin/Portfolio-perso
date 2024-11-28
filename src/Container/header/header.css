@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #727d86;
-    flex-wrap: wrap;
+    background: #0a3d62;
+    /* flex-wrap: wrap; */
     align-items: center;
 }
 
 h1 {
-    font-family: Righteous;
+    /* font-family: source-code-pro; */
     font-size: 19px;
+    color: white;
 }
 .logoHeader{
     width: 64px;
@@ -46,7 +47,7 @@ h1 {
     .Gridheader {  
         padding:15px 15px;
         align-items:center;
-        background: #727d86;
+       
     }
     h1 {
         font-size: 32px;

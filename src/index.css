@@ -1,22 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: source-code-pro,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro,monospace;
 }
 
-.righteous-regular {
-  font-family: "Righteous", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 @media (min-width= 768px){
  h1{ 
