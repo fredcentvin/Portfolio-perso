@@ -20,21 +20,5 @@ function Bannerlogos(){
         </div>
     )
 }
-// const styles={
-//     gridBannerLogos:{
-//         display:'flex',
-//         flexDirection:'row',
-//         gap:'80px',
-//         marginBottom:'30px'
-//     },
-//     img:{
-        
-//     },
-//     '@media (max-width: 400px)': {
-//         gridBannerLogos:{
-//             gap:'20px'
-//         }
-//     }
 
-// }
 export default Bannerlogos

@@ -5,6 +5,7 @@ import './dcbio.css';
 import Bannerlogos from '../../Components/bannerLogos/Bannerlogos';
 import PGGt from '../../assets/images/PGGt.gif'
 
+
 function DcBio() {
   const [logoAnimation, setLogoAnimation] = useState({ x: 0, y: 0, rotate: 0 });
 
@@ -26,18 +27,20 @@ function DcBio() {
         transition={{ type: 'spring', stiffness: 50, damping: 10 }}
       />
       <div className='gridDcBio'>
+      <div><img className="gifAnime" src={PGGt} alt="GIF animé de réunion" /></div>
         <div className='scrollContainerDcBio'>
         <h2 className='dcbioTitle'>À propos de nous</h2>
           <p className='pDcBio'>
             Bienvenue chez Agence Devcode Située au cœur de la Seine-et-Marne, l'agence Devcode est votre partenaire de confiance pour tous vos besoins en développement web. Spécialisés dans la création de sites internet adaptés à tous les supports – PC, mobiles et tablettes – nous mettons notre expertise au service de votre réussite digitale.
           </p> 
         </div>
-        <div><img className="gifAnime" src={PGGt} alt="GIF animé" /></div>
+        
       </div>
       <div className='descriptionAgence'>
         <h2 className='dcbioTitle'>Qui sommes-nous?</h2>
         <p className='textDescription'>Chez Agence Devcode, nous croyons que chaque projet est unique et mérite une attention particulière. Notre équipe de développeurs passionnés et expérimentés travaille en étroite collaboration avec vous pour concevoir des solutions sur mesure qui répondent parfaitement à vos attentes et objectifs.</p>
       </div>
+     
       <div className='contact'>
         <div className='gridContact'>
           <h2 className='titleContact'>Contactez-nous</h2>

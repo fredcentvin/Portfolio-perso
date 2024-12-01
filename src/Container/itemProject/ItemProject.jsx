@@ -17,33 +17,38 @@ function ItemProject() {
             description: "Réalisation d'un site responsive vitrine pour les cartes de divers restaurateurs en utilisant SASS, et intégrant quelques animations",
             img: pageohmyfood,
             link: 'https://fredcentvin.github.io/projet4-ohmyfood/',
-            tag: "HTML, SASS"
+            tag: "HTML, SASS",
+            alt: "Capture d'écran du projet Oh my food"
         },
         {
             title: "Kasa",
             description: "Site responsive pour de la location d'appartements entre particuliers utilisant React",
             img: pagekasa,
-            tag: "REACT, CSS"
+            tag: "REACT, CSS",
+            alt: "Capture d'écran du projet d'étude Kasa"
         },
         {
             title: "ArgentBank",
             description: "Façonnage du site d'une banque en ligne utilisant React, Redux, ainsi que de l'identification auprès du serveur avec un token et utilisation de la méthode CRUD",
             img: pageargentbank,
-            tag: "REACT, REACT-ROUTER, CSS"
+            tag: "REACT, REACT-ROUTER, CSS",
+            alt: "Capture d'écran du projet d'étude ArgentBank"
         },
         {
             title: "Print it",
             description: "Création du site d'une société familiale d'impression en utilisant javascript pour l'animation d'un carrousel",
             img: pagePrintit,
             link: "https://fredcentvin.github.io/Projet5-Print-it/",
-            tag: "HTML, CSS, JAVASCRIPT"
+            tag: "HTML, CSS, JAVASCRIPT",
+            alt: "Capture d'écran du projet d'étude Print it"
         },
         {
             title: "Portfolio Frédéric",
-            description: "Projet de fin d'étude Openclassrooms utilisant REACT",
+            description: "Projet de fin d'étude Openclassrooms utilisant REACT et mettant en exergue les divers principes vus durant mon parcours de formation.",
             img: pagePortfolio,
             link: "https://agence-devcode.fr/",
-            tag: "REACT, CSS, REACT-ROUTER"
+            tag: "REACT, CSS, REACT-ROUTER",
+            alt: "Capture d'écran du portfolio de Frédéric"
         }
     ];
 
@@ -63,7 +68,11 @@ function ItemProject() {
                             onClick={() => handleProjectClick(index)}
                             whileHover={{ scale: 1.1 }}
                         >
-                            <img className='squareImage' src={project.img} alt={`Projet ${project.title}`} />
+                            <img
+                                className='squareImage'
+                                src={project.img}
+                                alt={project.alt}
+                            />
                         </motion.div>
                         <AnimatePresence>
                             {currentIndex === index && (

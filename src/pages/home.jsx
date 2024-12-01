@@ -1,14 +1,15 @@
 import React from 'react';
 import Dcbio from '../Container/dcbio/dcbio.jsx';
-import backgroundImage from '../assets/images/fonddepage.webp';
+import backgroundImage from '../assets/images/fonddepagecoupe.webp';
 
 function Home() {
     return (
         <div>
             <div className='backViewDc' style={styles.backViewDc}>
                 <div style={styles.backgroundOverlay}></div>
+            
                 <Dcbio />
-            </div>
+                </div>
           
         </div>
     );

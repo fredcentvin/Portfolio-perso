@@ -93,7 +93,7 @@
   }
 
 
-@media (max-width: 768px){
+@media (min-width: 768px){
     .gridProjects{
         gap: 20px;
     }
@@ -118,7 +118,7 @@
         height: auto;  
     }
     .projectsContainer{
-        gap:30px;
+        gap:60px;
     }
     .title{
         font-size: 10px;
@@ -133,7 +133,7 @@
         object-fit: cover;
     }
     .projectDetail{
-        width: 310px;
+        width: 280px;
     }
     .tags{
         border: 1px solid #0a3d62;

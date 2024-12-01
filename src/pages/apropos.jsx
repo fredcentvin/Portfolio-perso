@@ -1,5 +1,5 @@
 import ItemBio from "../Container/itemBio/ItemBio";
-import backgroundImage from '../assets/images/fonddepage.webp';
+import backgroundImage from '../assets/images/fonddepagecoupe.webp';
 
 
 function Apropos() {

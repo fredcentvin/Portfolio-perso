@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className='gridFooter'>  
             <p className='pFooter' > Copyright 2024 - Agence-devcode</p>
-            <img  className='fixLogoAgence' src={logo1} alt="logo agence" />  
+            <img  className='fixLogoAgence' src={logo1} alt="logo agence Devcode" />  
         </div>
     );
 }

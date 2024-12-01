@@ -11,7 +11,7 @@ function ItemBio() {
 
   const textPart1 = `Bonjour et bienvenue sur mon portfolio! Je m'appelle Frédéric Boniface et je suis un intégrateur web junior passionné par le monde numérique.<br>
 
-  Après 10 années au service maintenance dans une fabrique de stylos et plus de 20 ans dans la gestion de la maintenance industrielle site pour un grand nom de la logistique, j'ai décidé de me reconvertir professionnellement. Passionné d'informatique depuis longtemps, j'ai naturellement choisi l'intégration web. J'ai suivi une formation chez OpenClassrooms, qui m'a permis d'obtenir un diplôme de niveau V, reconnu par le RNCP.
+  Après 10 années au service maintenance dans une fabrique de stylos et plus de 20 ans dans la gestion de la maintenance industrielle site pour un grand nom de la logistique, j'ai décidé de me reconvertir professionnellement. Passionné d'informatique depuis longtemps, j'ai naturellement choisi l'intégration web. J'ai suivi une formation chez <a href="https://www.openclassrooms.com" target="_blank" rel="noopener noreferrer" style="color: black;">OpenClassrooms</a>, qui m'a permis d'obtenir un diplôme de niveau V, reconnu par le RNCP.
 
   Au cours de cette formation, j'ai travaillé sur divers projets utilisant des langages tels que HTML, CSS, SASS, JavaScript, Jest, React et Redux, tout en intégrant les principes du SEO. En appliquant la méthode agile SCRUM, j'ai également utilisé GitHub pour la gestion de version, favorisant ainsi la collaboration.<br>`;
 
@@ -38,12 +38,13 @@ function ItemBio() {
         transition={{ type: 'spring', stiffness: 50, damping: 10 }}
       />
       <div className='gridBio'>
-        <h2 className='bioTitle'>À propos de moi</h2>
+        
         <div className='scrollContainer'>
+        <h2 className='bioTitle'>À propos de moi</h2>
           <p className='pBio' dangerouslySetInnerHTML={{ __html: displayedText1 }}></p>
           <a href="https://www.linkedin.com/in/frédéric-boniface-293076156" target="_blank" rel="noopener noreferrer">
-            <img className="logoLink"  src={linkedin} alt="logo linkedin" />
-            </a>
+            <img className="logoLink" src={linkedin} alt="logo linkedin lien vers profil de Frédéric Boniface" />
+          </a>
         </div>
         <div className='scrollContainer'>
           <p className='pBio' dangerouslySetInnerHTML={{ __html: displayedText2 }}></p>
@@ -57,3 +58,4 @@ function ItemBio() {
 }
 
 export default ItemBio;
+

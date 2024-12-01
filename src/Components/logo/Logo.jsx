@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div className='gridLogoHeader' >
             <a href="/">
-                <img className='fixLogo' src={logo1} alt="logo agence" />
+                <img className='fixLogo' src={logo1} alt="logo agence Devcode" />
             </a>
         </div>
     );
