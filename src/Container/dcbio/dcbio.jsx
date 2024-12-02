@@ -31,7 +31,7 @@ function DcBio() {
         <div className='scrollContainerDcBio'>
         <h2 className='dcbioTitle'>À propos de nous</h2>
           <p className='pDcBio'>
-            Bienvenue chez Agence Devcode Située au cœur de la Seine-et-Marne, l'agence Devcode est votre partenaire de confiance pour tous vos besoins en développement web. Spécialisés dans la création de sites internet adaptés à tous les supports – PC, mobiles et tablettes – nous mettons notre expertise au service de votre réussite digitale.
+            Bienvenue chez Agence Devcode Située au cœur de la Seine-et-Marne, l'agence Devcode est votre partenaire de confiance pour tous vos besoins en développement web. Spécialisés dans la création de sites internet sur mesure adaptés à tous les supports – PC, mobiles et tablettes – nous mettons notre expertise au service de votre réussite digitale.
           </p> 
         </div>
         

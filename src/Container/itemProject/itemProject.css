@@ -50,7 +50,7 @@
 
 .squareImage {
     object-fit: cover;
-    width:400px;
+    width:310px;
     height: auto;
     margin: auto;
    
@@ -62,7 +62,7 @@
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 380px;
+    width: 320px;
     margin-top: 10px;
 }
 

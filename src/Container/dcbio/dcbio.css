@@ -41,7 +41,7 @@
     background-color: #ddd;
   }
   .pDcBio {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
     font-weight: 300;
     line-height: 1.5;
@@ -50,7 +50,7 @@
   }
   .descriptionAgence{
     margin-top: 50px;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     font-weight: 300;
     line-height: 1.5;
@@ -90,7 +90,7 @@
     padding-left: 16px;
   }
   .textDescription{
-    font-size: 12px;
+    font-size: 14px;
     color: black;
     font-weight: 300;
     line-height: 1.5;

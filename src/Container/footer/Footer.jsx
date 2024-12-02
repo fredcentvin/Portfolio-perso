@@ -8,7 +8,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className='gridFooter'>  
-            <p className='pFooter' > Copyright 2024 - Agence-devcode</p>
+            <h3 className='pFooter' > Copyright 2024 - Agence-devcode</h3>
             <img  className='fixLogoAgence' src={logo1} alt="logo agence Devcode" />  
         </div>
     );
