@@ -59,7 +59,7 @@ function ItemProject() {
     return (
         <div className="gridProjects">
             <h2 className="projectsTitle">Quelques exemples de réalisations</h2>
-            <h3 className='projectSubtitle'>Projets d'étude</h3>
+            <h4 className='projectSubtitle'>Projets d'étude</h4>
             <div className="projectsContainer">
                 {projects.map((project, index) => (
                     <div key={index} className="projectWrapper">

@@ -35,7 +35,7 @@
     padding: 10px;
     border: 1px solid #484d51;
     border-radius: 4px;
-    box-shadow:0 4px 8px #497ea7;
+    box-shadow:5px 3px 8px #497ea7;
     flex-grow: 1;
     align-items: flex-start;
     background-color: #ddd;
@@ -43,7 +43,7 @@
   .pDcBio {
     font-size: 14px;
     color: black;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 1.5;
     text-align: start;
     line-height: 1.6;
@@ -128,7 +128,7 @@
     margin-bottom: 50px;
   }
   .titleContact{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 2px;
     margin-top: 0;
     color: black;
@@ -195,6 +195,7 @@
       font-size: 16px;
       margin-left: 15px;
       margin-right: 15px;
+      margin-top: 15px;
     }
     .ourServices{
       flex-direction: column;
@@ -266,9 +267,13 @@
     margin-right: 270px;
   }
   .scrollContainerDcBio{
-    margin-right: 255px;
-    margin-left: 195px;
-    padding: 30px 30px;
+    /* margin-right: 255px;
+    margin-left: 195px; */
+    padding: 15px 30px;
+  }
+  .scrollContainerDcBio .dcbioTitle{
+    margin-top: 5px;
+    margin-bottom: 0;
   }
   .gridServices{
     width: 30%;
@@ -308,11 +313,12 @@
     margin-right: 180px;
     width: 350px;
     height: 250px;
+    margin-top: 0;
   }
   .contact{
     display: flex;
     flex-direction: row;
-  justify-content: center;
+    justify-content: center;
   }
 }
 @media (min-width: 1440px){
