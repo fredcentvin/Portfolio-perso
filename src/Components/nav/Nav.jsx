@@ -16,8 +16,8 @@ function Nav() {
                 <Link className="pApropos" to="/apropos">A PROPOS</Link>
                 <a className="fixCv" href={moncv} target="_blank" rel="noopener noreferrer" aria-label="Téléchargement du CV au format PDF">PDF CV</a>
                 <p className="pNav" onClick={handleContactClick}>CONTACT</p>
-                <Link to="/projects">PROJETS</Link>
-                <Link to="/nosservices">SERVICES</Link> 
+                <Link to="/projects" className="decoLink">PROJETS</Link>
+                <Link to="/nosservices" className="decoLink">SERVICES</Link> 
             </div>
             {showEmail && (
                 <div className="emailDisplay">

@@ -26,7 +26,7 @@
     color:#ddd;
     font-weight: 300;
 }
-a{
+.fixCv{
     font-size: 12px;
     cursor: pointer;
     text-decoration: none;
@@ -34,11 +34,32 @@ a{
     font-weight: 300;
     margin-bottom: 0;
 }
-
+.linkMail{
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ddd;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.decoLink{
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ddd;
+    font-weight: 300;
+    margin-bottom: 0; 
+}
 
 @media (min-width: 768px){
-    a{
+    .linkMail{
         font-size: 14px; 
+    }
+    .fixCv{
+        font-size: 14px;  
+    }
+    .decoLink{
+        font-size: 14px;   
     }
     .pNav{
         gap: 30px;
@@ -118,7 +139,7 @@ a{
         height: 40px;
         margin-top: 15px;
     }
-    a{
+    .linkMail{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
@@ -126,5 +147,20 @@ a{
         /* font-family: Righteous; */
         margin-bottom: 0;
     }
-
+    .fixCv{
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 700;
+        /* font-family: Righteous; */
+        margin-bottom: 0;
+    }
+    .decoLink{
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 700;
+        /* font-family: Righteous; */
+        margin-bottom: 0;
+    }
 }
