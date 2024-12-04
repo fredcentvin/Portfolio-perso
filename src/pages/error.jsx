@@ -1,10 +1,12 @@
 
+import BackHome from '../Components/backHome/backHome'
 function Error() {
     return (
        <main>
           <section style={styles.section} >
              <h1 style={styles.h1} >404</h1>
              <p style={styles.p} >Oups...  Page not found</p>
+             <BackHome />
           </section>
        </main>
     )
