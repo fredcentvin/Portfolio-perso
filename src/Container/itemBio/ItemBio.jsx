@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import moi from '../../assets/images/moi.webp';
 import './itemBio.css';
-import linkedin from '../../assets/logos/linkedin.png';
+
 
 function ItemBio() {
   const [displayedText1, setDisplayedText1] = useState('');
@@ -42,9 +42,7 @@ function ItemBio() {
         <div className='scrollContainer'>
         <h2 className='bioTitle'>À propos de moi</h2>
           <p className='pBio' dangerouslySetInnerHTML={{ __html: displayedText1 }}></p>
-          <a href="https://www.linkedin.com/in/frédéric-boniface-293076156" target="_blank" rel="noopener noreferrer">
-            <img className="logoLink" src={linkedin} alt="logo linkedin lien vers profil de Frédéric Boniface" />
-          </a>
+          
         </div>
         <div className='scrollContainer'>
           <p className='pBio' dangerouslySetInnerHTML={{ __html: displayedText2 }}></p>

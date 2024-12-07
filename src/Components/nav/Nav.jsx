@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import moncv from '../../assets/images/moncv.pdf';
+import linkedin from '../../assets/logos/linkedin.png';
 import './nav.css';
 
 function Nav() {
@@ -18,6 +19,11 @@ function Nav() {
                 <p className="pNav" onClick={handleContactClick}>CONTACT</p>
                 <Link to="/projects" className="decoLink">PROJETS</Link>
                 <Link to="/nosservices" className="decoLink">SERVICES</Link> 
+            </div>
+            <div className="socialLink">
+            <a href="https://www.linkedin.com/in/frédéric-boniface-293076156" target="_blank" rel="noopener noreferrer">
+            <img className="logoLink" src={linkedin} alt="logo linkedin lien vers profil de Frédéric Boniface" />
+          </a>
             </div>
             {showEmail && (
                 <div className="emailDisplay">
