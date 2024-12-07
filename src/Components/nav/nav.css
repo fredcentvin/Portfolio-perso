@@ -50,6 +50,11 @@
     font-weight: 300;
     margin-bottom: 0; 
 }
+.logoLink {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
 
 @media (min-width: 768px){
     .linkMail{
@@ -72,12 +77,14 @@
         padding-left: 0;
         padding-right: 0;
         gap:80px;
-        margin-left: 0;
-        margin-top: 15px;
+        margin-left: 5px;
+        margin-top: 55px;
     }
-    
     .pApropos{
         font-size: 14px;
+    }
+    .logoLink{
+        margin-top: 15px;
     }
    
 }

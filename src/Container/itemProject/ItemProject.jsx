@@ -87,7 +87,7 @@ function ItemProject() {
                                     <p className="description">{project.description}</p>
                                     <p className="tags">{project.tag}</p> 
                                     {project.link && (
-                                        <a className="designLink" href={project.link} target="_blank" rel="noopener noreferrer">
+                                        <a className="designLink" href={project.link} target="_blank" rel="noopener noreferrer" aria-label="Lien vers projet publié sur Git-Hub">
                                             Visitez le site {project.title}
                                         </a>
                                     )}
