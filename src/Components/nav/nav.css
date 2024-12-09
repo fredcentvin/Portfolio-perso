@@ -14,7 +14,6 @@
     padding-left: 0;
     padding-right: 0;
     gap:15px;
-    /* margin-left: 15px; */
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
@@ -95,63 +94,25 @@
 }
 @media (min-width:1440px){
     .navContainer{
-        display: flex;
-            flex-direction: row;
-            gap: 30px;
-
-            align-items: center;
+        flex-direction: row;    
     }
     .pNav{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
-   
         font-weight: 700;
-        /* font-family: Righteous; */
     }
     .pApropos{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
-   
         font-weight: 700;
-        /* font-family: Righteous; */
-    }
-    .closeButton{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background: none;
-        border: none;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    .form{
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        height: 300px;
-        gap: 20px;
-    }
-    .formInput{
-        display: flex;
-        flex-direction: column;
-    }
-    .blockLabel{
-        display: flex;
-        flex-direction: column;
-    }
-    .buttonValidForm{
-        background: #3498db;
-        height: 40px;
-        margin-top: 15px;
     }
     .linkMail{
         font-size: 14px;
         cursor: pointer;
         text-decoration: none;
         font-weight: 700;
-        /* font-family: Righteous; */
         margin-bottom: 0;
     }
     .fixCv{
@@ -159,7 +120,6 @@
         cursor: pointer;
         text-decoration: none;
         font-weight: 700;
-        /* font-family: Righteous; */
         margin-bottom: 0;
     }
     .decoLink{
@@ -167,7 +127,6 @@
         cursor: pointer;
         text-decoration: none;
         font-weight: 700;
-        /* font-family: Righteous; */
         margin-bottom: 0;
     }
 }

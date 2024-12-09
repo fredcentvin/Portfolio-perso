@@ -3,7 +3,6 @@
     flex-direction: row;
     gap: 20px;
     margin-bottom: 30px;
-    /* padding-left: 10px; */
 }
 .fixImgLogos{
     width: 30px;
@@ -18,6 +17,7 @@
         width: 45px;
     }
 }
+
 @media(min-width: 1024px){
     .gridBannerLogos{
         gap: 80px;
@@ -26,12 +26,10 @@
     .fixImgLogos{
         width: 60px;
     }
-
 }
+
 @media (min-width: 1440px){
     .gridBannerLogos{
         gap: 80px; 
-    }
-   
-    
+    } 
 }

@@ -5,7 +5,6 @@
     gap: 30px;
     background-color: #ddd;
 }
-
 .projectsTitle {
     font-size: 22px;
     font-weight: 700;
@@ -19,7 +18,6 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .projectsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -27,15 +25,12 @@
     padding: 0 20px;
     gap: 80px;
 }
-
 .projectWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 20px;
-  
 }
-
 .projectSquare {
     box-shadow:5px 3px 8px #497ea7; 
     border-radius: 8px;
@@ -43,19 +38,15 @@
     cursor: pointer;
     transition: transform 0.3s;
 }
-
 .selectedSquare {
     transform: scale(1.1);
 }
-
 .squareImage {
     object-fit: cover;
     width:310px;
     height: auto;
-    margin: auto;
-   
+    margin: auto;   
 }
-
 .projectDetail {
     overflow: hidden;
     background: #f4f4f4;
@@ -65,20 +56,17 @@
     width: 290px;
     margin-top: 15px;
 }
-
 .title {
     font-size: 14px;
     margin: 5px 0;
     color: black;
     text-align: center;
 }
-
 .description {
     margin: 10px 0;
     color: black;
     font-size: 12px;
 }
-
 .designLink {
     color: #0a3d62;
     text-decoration: underline;
@@ -91,7 +79,6 @@
     margin-top: 10px;
     background-color:#0a3d62 ;
   }
-
 
 @media (min-width: 768px){
     .gridProjects{
@@ -142,6 +129,7 @@
         margin-top: 10px;
       }  
 }
+
 @media(min-width:1024px){
     .gridProjects{
         gap:20px;

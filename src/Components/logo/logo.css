@@ -9,19 +9,15 @@
         height: 50px;
     }
     .fixLogo{
-        height: 64px;
         margin-left: 0;
     }
 }
 @media (min-width: 1024px){
     .fixLogo{
         height: 90px;
-        margin-bottom: 15px;
-       
+        margin-bottom: 15px;  
     }
 }
 @media (min-width: 1440px){
-    .fixLogo{
-        height: 90px;
-    }
+   
 }

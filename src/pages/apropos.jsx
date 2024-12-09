@@ -1,10 +1,14 @@
 import ItemBio from "../Container/itemBio/ItemBio";
 import backgroundImage from '../assets/images/fonddepagecoupe.webp';
-
+import {Helmet} from 'react-helmet';
 
 function Apropos() {
     return (
         <div>
+            <Helmet>
+                <title>À propos - Agence DevCode</title>
+                 <link rel="canonical" href="https://www.agence-devcode.fr/apropos" />
+            </Helmet>
             <div className='backView' style={styles.backView}>
                 <div style={styles.backgroundOverlay}></div>
                 <ItemBio />

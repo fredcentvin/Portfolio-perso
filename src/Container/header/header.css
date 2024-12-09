@@ -3,12 +3,10 @@
     justify-content: center;
     flex-direction: column;
     background: #0a3d62;
-    /* flex-wrap: wrap; */
     align-items: center;
 }
 
 h1 {
-    /* font-family: source-code-pro; */
     font-size: 19px;
     color: white;
 }
@@ -18,7 +16,6 @@ h1 {
     text-align: center;
 }
 
-
 @media (min-width: 768px){
     h1 {
         padding-left: 0;
@@ -27,9 +24,9 @@ h1 {
     .logoHeader{
         width: 64px;
         height: 64px;
-        text-align: center;
     }
 }
+
 @media (min-width: 1024px){
     .Gridheader{
         flex-direction: row;
@@ -43,16 +40,14 @@ h1 {
         font-size: 28px;
     }
 }
+
 @media (min-width: 1440px){
     .Gridheader {  
         padding:15px 15px;
-        align-items:center;
-       
+        align-items:center;  
     }
     h1 {
         font-size: 32px;
         padding-left: 170px;
-        /* font-family: Righteous; */
-        /* color:#87b3ba; */
     }
 }
